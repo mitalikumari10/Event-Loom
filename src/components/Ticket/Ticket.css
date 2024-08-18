@@ -1,0 +1,32 @@
+.ticket-purchase-container, .my-tickets-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ticket-purchase-container form input,
+  .ticket-purchase-container form button {
+    margin: 10px 0;
+  }
+  
+  .ticket-purchase-container form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .ticket-purchase-container form button {
+    background-color: #dcd0ff; /* Lavender */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .ticket-purchase-container form button:hover {
+    background-color: #c7a4e0; /* Darker lavender */
+  }
+  

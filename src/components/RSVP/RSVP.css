@@ -1,0 +1,18 @@
+.rsvp-button-container {
+    text-align: center;
+  }
+  
+  .rsvp-button-container button {
+    background-color: #dcd0ff; /* Lavender */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .rsvp-button-container button:hover {
+    background-color: #c7a4e0; /* Darker lavender */
+  }
+  

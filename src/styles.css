@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Smokewhite */
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Auth Styles */
+  .auth-container {
+    background-color: #fafafa; /* Smokewhite */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .auth-container form input,
+  .auth-container form button {
+    margin: 10px 0;
+  }
+  
+  .auth-container form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .auth-container form button {
+    background-color: #dcd0ff; /* Lavender */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .auth-container form button:hover {
+    background-color: #c7a4e0; /* Darker lavender */
+  }
+  
+  /* Event Styles */
+  .event-list-container, .event-details-container, .event-form-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-list-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .event-list-container li {
+    margin: 10px 0;
+  }
+  
+  .event-list-container a {
+    color: #dcd0ff; /* Lavender */
+    text-decoration: none;
+  }
+  
+  .event-details-container button {
+    background-color: #dcd0ff; /* Lavender */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .event-details-container button:hover {
+    background-color: #c7a4e0; /* Darker lavender */
+  }
+  
+  /* Ticket Styles */
+  .ticket-purchase-container, .my-tickets-container {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ticket-purchase-container form input,
+  .ticket-purchase-container form button {
+    margin: 10px 0;
+  }
+  
+  .ticket-purchase-container form input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .ticket-purchase-container form button {
+    background-color: #dcd0ff; /* Lavender */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .ticket-purchase-container form button:hover {
+    background-color: #c7a4e0; /* Darker lavender */
+  }
+  
+  /* RSVP Styles */
+  .rsvp-button-container {
+    text-align: center;
+  }
+  
+  .rsvp-button-container button {
+    background-color: #dcd0ff; /* Lavender */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .rsvp-button-container button:hover {
+    background-color: #c7a4e0; /* Darker lavender */
+  }
+  

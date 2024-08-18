@@ -1,0 +1,33 @@
+.event-details {
+    padding: 2rem;
+    background-color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-title {
+    font-size: 2rem;
+    color: #6c5b7b; /* Lavender */
+  }
+  
+  .event-date, .event-location, .event-description {
+    color: #555;
+    margin: 1rem 0;
+  }
+  
+  .rsvp-button {
+    background-color: #6c5b7b; /* Lavender */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .rsvp-button:hover {
+    background-color: #5a4b67;
+  }
+  
